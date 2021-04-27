@@ -1,0 +1,7 @@
+﻿  C++,Mysql,Poo.cpp
+C:\Users\Micha\Desktop\Tarea POO\Tarea\C++,Mysql,Poo\C++,Mysql,Poo\C++,Mysql,Poo.cpp(8,6): warning C4101: 'op': variable local sin referencia
+  Generando código
+  Previous IPDB and IOBJ mismatch, fall back to full compilation.
+  All 144 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  Generación de código finalizada
+  C++,Mysql,Poo.vcxproj -> C:\Users\Micha\Desktop\Tarea POO\Tarea\C++,Mysql,Poo\x64\Release\C++,Mysql,Poo.exe
