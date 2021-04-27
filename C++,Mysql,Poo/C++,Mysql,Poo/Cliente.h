@@ -91,7 +91,7 @@ public:
 			cout << "Ingrese el id a eliminar: ";
 			cin >> eliminar;
 			string ee = to_string(eliminar);
-			string insert = "delete from marcas where idMarca=" + ee + " ";
+			string insert = "delete from clientes where id_cliente=" + ee + " ";
 			const char* a = insert.c_str();
 			q_estado = mysql_query(cn.getConectar(), a);
 			if (!q_estado) {
@@ -109,7 +109,7 @@ public:
 		cn.cerrar_conexion();
 	}
 
-	/*void actualizar() {
+	void actualizar() {
 		int q_estado;
 		ConexionBD cn = ConexionBD();
 		cn.abrir_conexion();
@@ -132,6 +132,6 @@ public:
 			cout << "error al conectar" << endl;
 		}
 		cn.cerrar_conexion();
-	}*/
+	}
 };
 
